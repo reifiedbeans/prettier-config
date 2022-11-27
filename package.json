@@ -1,0 +1,26 @@
+{
+  "name": "@reifiedbeans/prettier-config",
+  "version": "1.0.0",
+  "description": "A (somewhat) sensible Prettier config",
+  "repository": "reifiedbeans/prettier-config",
+  "author": "Drew Davis",
+  "license": "MIT",
+  "homepage": "https://github.com/reifiedbeans/prettier-config",
+  "main": "index.json",
+  "files": [
+    "index.json"
+  ],
+  "scripts": {
+    "check": "prettier --check .",
+    "fix": "prettier --write .",
+    "prepack": "npm run check"
+  },
+  "peerDependencies": {
+    "prettier": "^2.8.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.0",
+    "semantic-release": "^19.0.5"
+  },
+  "prettier": "./index.json"
+}
