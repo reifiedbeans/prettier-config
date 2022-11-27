@@ -1,5 +1,11 @@
 # @reifiedbeans/prettier-config
 
+[![npm version](https://img.shields.io/npm/v/@reifiedbeans/prettier-config/latest)](https://www.npmjs.com/package/@reifiedbeans/prettier-config)
+![prettier version](https://img.shields.io/npm/dependency-version/@reifiedbeans/prettier-config/peer/prettier)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![semantic-release: conventional commits](https://img.shields.io/badge/semantic_release-conventional_commits-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
+[![license: MIT](https://img.shields.io/npm/l/@reifiedbeans/prettier-config)](LICENSE)
+
 A (somewhat) sensible [Prettier] config. This configuration sticks to the [Prettier defaults] for the most part, with a few changes that work better with [TypeScript] (in my opinion).
 
 ## Usage
