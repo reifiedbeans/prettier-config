@@ -1,6 +1,6 @@
 {
   "name": "@reifiedbeans/prettier-config",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A (somewhat) sensible Prettier config",
   "repository": "reifiedbeans/prettier-config",
   "author": "Drew Davis",
@@ -19,8 +19,12 @@
     "prettier": "^2.8.0"
   },
   "devDependencies": {
+    "@reifiedbeans/semantic-release-config": "^1.0.0",
     "prettier": "^2.8.0",
     "semantic-release": "^19.0.5"
   },
-  "prettier": "./index.json"
+  "prettier": "./index.json",
+  "release": {
+    "extends": "@reifiedbeans/semantic-release-config"
+  }
 }
