@@ -23,5 +23,8 @@
   "prettier": "./index.json",
   "release": {
     "extends": "@reifiedbeans/semantic-release-config"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
