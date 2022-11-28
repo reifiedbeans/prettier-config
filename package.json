@@ -7,9 +7,6 @@
   "license": "MIT",
   "homepage": "https://github.com/reifiedbeans/prettier-config",
   "main": "index.json",
-  "files": [
-    "index.json"
-  ],
   "scripts": {
     "check": "prettier --check .",
     "fix": "prettier --write .",
